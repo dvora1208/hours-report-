@@ -1,0 +1,19 @@
+{
+  "name": "node-server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "prettier": "prettier --write server.js"
+  },
+  "engines": {
+    "node": "^10.15",
+    "npm": "^2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.1"
+  }
+}
